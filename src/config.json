@@ -1,0 +1,206 @@
+[
+    {
+        "name":"Military gyrotachometer",
+        "price":39060,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"SAS drive",
+        "price":336,
+        "currency_buy":"USD",
+        "currency_sell":"USD",
+        "trader":"PEACEKEEPER"
+    },
+    {
+        "name": "Fake mustache",
+        "price": 14067,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader": "RAGMAN"
+    },
+    {
+        "name": "Old firesteel",
+        "price": 39943,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader": "THERAPIST"
+    },
+    {
+        "name":"Hand drill",
+        "price":37800,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader": "THERAPIST"
+    },
+    {
+        "name":"Deadlyslob's beard oil",
+        "price":34932,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Veritas guitar pick",
+        "price":34650,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    }
+    ,
+    {
+        "name":"Antique vase",
+        "price":42714,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Antique teapot",
+        "price":29547,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Golden egg",
+        "price":42840,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Battered antique book",
+        "price":39708,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Raven figurine",
+        "price":30240,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Cat figurine",
+        "price":39254,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Press pass (issued for NoiceGuy)",
+        "price":31500,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"LVNDMARK's rat poison",
+        "price":32062,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Round pliers",
+        "price":17010,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Nippers",
+        "price":10710,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Flat screwdriver (Long)",
+        "price":20790,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Metal cutting scissors",
+        "price":14049,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Tube of Poxeram cold welding",
+        "price":12222,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Ultraviolet lamp",
+        "price":9799,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Axel parrot figurine",
+        "price":32130,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Pestily plague mask",
+        "price":58838,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"RAGMAN"
+    },
+    {
+        "name":"Gingy keychain",
+        "price":50400,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Shroud half-mask",
+        "price":26040,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"RAGMAN"
+    },
+    {
+        "name":"Umka M33-SET1 hunter vest",
+        "price":15934,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"RAGMAN"
+    },
+    {
+        "name":"PC CPU",
+        "price":8766,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"THERAPIST"
+    },
+    {
+        "name":"Smoke balaclava",
+        "price":27466,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"RAGMAN"
+    },
+    {
+        "name":"Hockey player mask \"Brawler\"",
+        "price":9300,
+        "currency_buy":"RUB",
+        "currency_sell":"RUB",
+        "trader":"RAGMAN"
+    }
+  ]
