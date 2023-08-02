@@ -1,0 +1,10 @@
+pywinauto  
+keyboard  
+pyautogui  
+pyperclip  
+pytesseract  
+opencv-python  
+mss  
+tqdm  
+pillow  
+Levenshtein
