@@ -7,14 +7,6 @@ from tqdm import tqdm
 
 actions_cnt = 0
 
-def static_vars(**kwargs):
-    def decorate(func):
-        for k in kwargs:
-            setattr(func, k, kwargs[k])
-        return func
-    return decorate
-
-
 @static_vars(last_time=time.time())
 def actions_checker():
         global actions_cnt

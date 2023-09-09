@@ -23,15 +23,23 @@ def __recursion_remove(pos,to_analize):
             stack.append([i+1, j])
             stack.append([i-1, j])
             stack.append([i, j-1])
-
+    """
+    if pos[0] >= len(to_analize) or pos[1] >= len(to_analize[0]):
+        return
+    if to_analize[pos[0]][pos[1]].tolist() != [0,0,0,255]:
+        to_analize[pos[0]][pos[1]] = [0,0,0,255]
+        for i in [[0,1],[1,0],[-1,0],[0,-1]]:
+            __recursion_remove([pos[0]+i[0],pos[1]+i[1]],to_analize)"""
 
 def get_smallest_price():
+    #cords = {'top': int(screen.width * PRICE_START[0]), 'left': int(screen.width * PRICE_START[1]), 'width': int(screen.width * PRICE_END[0] - screen.width * PRICE_START[0]) , 'height':  int(screen.width * PRICE_END[1] - screen.width * PRICE_START[1])}
     cords = {'top': 0,'left': 0,'width':int(screen.width * PRICE_END[0]), 'height':int(screen.height * PRICE_END[1])}
     with mss() as sct :
         img = np.array(sct.grab(cords))
         crop_img = img[ int(screen.height * PRICE_START[1])::, int(screen.width * PRICE_START[0])::]
         to_analize = np.copy(crop_img)
-        #remove curency
+
+        #remove curency (rubels)
         pos = [0,0]
         (thresh, to_analize) = cv2.threshold(to_analize, 127, 255, cv2.THRESH_BINARY)
         for y in reversed (range(len(to_analize))):
@@ -41,7 +49,9 @@ def get_smallest_price():
                     break
             if pos != [0,0]:
                 break
+        #cv2.imwrite("1.png",to_analize)
         __recursion_remove(pos,to_analize)
+        #cv2.imwrite("2.png",to_analize)
         
 
 

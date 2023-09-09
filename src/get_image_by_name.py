@@ -18,8 +18,6 @@ for item in tqdm(original):
     name_id_dict[item["shortName"]] = item["id"]
 
 
-
-
 def get_image(name):
     id = name_id_dict[name]
     img_path = path+id+".png"
@@ -30,3 +28,5 @@ def get_image(name):
     im.save(img_path)
     img = cv2.imread(img_path) 
     return img
+
+
